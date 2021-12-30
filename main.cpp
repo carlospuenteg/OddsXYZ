@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <iostream>
 #include <math.h>
 
@@ -8,7 +7,7 @@ int main()
 {
     float odds;
     int tries, r;
-    printf("Odds of X (with Y odds) happening after Z tries\n");
+    cout << "Odds of X (with Y odds) happening after Z tries\n");
     do {
         cout << "Odds of X happening (in %): ";
         cin >> odds;
@@ -27,7 +26,7 @@ int main()
     float odds;
     float fOdds = 1;
     int tries, r;
-    printf("Odds of X (with Y odds) happening after Z tries\n");
+    cout << "Odds of X (with Y odds) happening after Z tries\n");
     do {
         cout << "Odds of X happening (in %): ";
         cin >> odds;
