@@ -1,15 +1,15 @@
 #include <iostream>
 #include <math.h>
 
-// You can try it on: https://www.onlinegdb.com/
-
 using namespace std;
+
+// You can try it on: https://www.onlinegdb.com/
 
 int main()
 {
     float odds;
     int tries, r;
-    cout << "Odds of X (with Y odds) happening after Z tries\n");
+    cout << "Odds of X (with Y odds) happening after Z tries\n";
     do {
         cout << "Odds of X happening (in %): ";
         cin >> odds;
